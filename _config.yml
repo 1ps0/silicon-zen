@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+remote_theme: just-the-docs/just-the-docs
 title: Silicon Zen
 description: Modern Koans for the AI Age
 markdown: kramdown
@@ -12,7 +12,6 @@ kramdown:
     - smart
 plugins:
   - jekyll-relative-links
-theme: just-the-docs
 defaults:
   - scope:
       path: "koans"
