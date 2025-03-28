@@ -12,12 +12,12 @@ kramdown:
     - smart
 plugins:
   - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
 defaults:
   - scope:
       path: "koans"
       type: "pages"
     values:
       layout: "default"
+relative_links:
+  enabled: true
+  collections: true
