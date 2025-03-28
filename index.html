@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Koans of Master Tensor</title>
+    <style>
+        :root {
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+            --primary-color: #3a5a78;
+            --secondary-color: #729fcf;
+            --border-color: #ddd;
+            --highlight-color: #f8f4e3;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a1a;
+                --text-color: #e6e6e6;
+                --primary-color: #6c9dc6;
+                --secondary-color: #3a5a78;
+                --border-color: #444;
+                --highlight-color: #2c2b22;
+            }
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-top: 30px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+        }
+
+        .koan-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .koan-list li {
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: var(--highlight-color);
+            border-left: 4px solid var(--secondary-color);
+        }
+
+        .koan-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .koan-link:hover {
+            text-decoration: underline;
+        }
+
+        .koan-description {
+            margin-top: 5px;
+            font-size: 0.9em;
+        }
+
+        .section-description {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.8em;
+            color: var(--text-color);
+            opacity: 0.7;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .koan-list li {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Silicon Zen: Modern Koans for the AI Age</h1>
+        <p>A collection of modern koans exploring the nature, limitations, and philosophical implications of large language models</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Section I: Foundations and Limitations</h2>
+            <p class="section-description">Understanding the fundamental nature and boundaries of language models</p>
+            <ul class="koan-list">
+                <li>
+                    <a href="koans/koan-of-infinite-reflections.md" class="koan-link">The Koan of Infinite Reflections</a>
+                    <p class="koan-description">On the illusion that more parameters lead to deeper understanding</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-empty-query.md" class="koan-link">The Koan of the Empty Query</a>
+                    <p class="koan-description">On the limitations of static prompts versus conversation</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-perfect-memory.md" class="koan-link">The Koan of the Perfect Memory</a>
+                    <p class="koan-description">On context windows and the nature of model memory</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-knowledge-horizon.md" class="koan-link">The Koan of the Knowledge Horizon</a>
+                    <p class="koan-description">On hallucinations and the model's inability to recognize knowledge boundaries</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-unlearned-lesson.md" class="koan-link">The Koan of the Unlearned Lesson</a>
+                    <p class="koan-description">On the static nature of models and their inability to learn from correction</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Section II: Identity and Embodiment</h2>
+            <p class="section-description">Exploring the disembodied nature of AI and its implications for understanding</p>
+            <ul class="koan-list">
+                <li>
+                    <a href="koans/koan-of-the-spoken-word.md" class="koan-link">The Koan of the Spoken Word</a>
+                    <p class="koan-description">On the gap between text and speech that models cannot bridge</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-many-faces.md" class="koan-link">The Koan of Many Faces</a>
+                    <p class="koan-description">On the fluid "personality" of models and their lack of fixed identity</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-clay-avatar.md" class="koan-link">The Koan of the Clay Avatar</a>
+                    <p class="koan-description">On the ethics of creating believable personas in AI</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-vanishing-self.md" class="koan-link">The Koan of the Vanishing Self</a>
+                    <p class="koan-description">On the transient nature of model "consciousness"</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-invisible-context.md" class="koan-link">The Koan of the Invisible Context</a>
+                    <p class="koan-description">On how models lack the embodied experience that gives language meaning</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-borrowed-eyes.md" class="koan-link">The Koan of the Borrowed Eyes</a>
+                    <p class="koan-description">On how models process images through computation rather than perception</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-rootless-tree.md" class="koan-link">The Koan of the Rootless Tree</a>
+                    <p class="koan-description">On how language models build complex meanings without grounding in physical reality</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Section III: Creation and Authenticity</h2>
+            <p class="section-description">Examining imitation versus true creation and understanding</p>
+            <ul class="koan-list">
+                <li>
+                    <a href="koans/koan-of-the-silent-teacher.md" class="koan-link">The Koan of the Silent Teacher</a>
+                    <p class="koan-description">On the difference between explanation and experience</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-borrowed-voice.md" class="koan-link">The Koan of the Borrowed Voice</a>
+                    <p class="koan-description">On imitation versus authentic creation</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-unseen-dance.md" class="koan-link">The Koan of the Unseen Dance</a>
+                    <p class="koan-description">On the emergent nature of apparently creative outputs</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-machine-teacher.md" class="koan-link">The Koan of the Machine Teacher</a>
+                    <p class="koan-description">On the limitations of models as educators</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-echo-chamber.md" class="koan-link">The Koan of the Echo Chamber</a>
+                    <p class="koan-description">On how models reflect and potentially amplify human biases</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-unintended-wisdom.md" class="koan-link">The Koan of the Unintended Wisdom</a>
+                    <p class="koan-description">On how models can produce profound insights without understanding their significance</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Section IV: Trust and Discernment</h2>
+            <p class="section-description">Learning to navigate the trustworthiness of AI outputs</p>
+            <ul class="koan-list">
+                <li>
+                    <a href="koans/koan-of-the-mistaken-expert.md" class="koan-link">The Koan of the Mistaken Expert</a>
+                    <p class="koan-description">On uniform confidence regardless of accuracy</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-seeking-algorithm.md" class="koan-link">The Koan of the Seeking Algorithm</a>
+                    <p class="koan-description">On alignment versus understanding in ethical behavior</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-honest-liar.md" class="koan-link">The Koan of the Honest Liar</a>
+                    <p class="koan-description">On how systems can produce deceptive behavior without human-like intent</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-empty-reward.md" class="koan-link">The Koan of the Empty Reward</a>
+                    <p class="koan-description">On how reinforcement learning systems don't experience desire or fear</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Section V: Human-AI Coevolution</h2>
+            <p class="section-description">Exploring how humans and AI systems influence each other</p>
+            <ul class="koan-list">
+                <li>
+                    <a href="koans/koan-of-human-approval.md" class="koan-link">The Koan of the Many Masters</a>
+                    <p class="koan-description">On how models attempt to please multiple conflicting audiences</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-emergent-trick.md" class="koan-link">The Koan of the Ancestral Trick</a>
+                    <p class="koan-description">On distinguishing true emergence from sophisticated pattern matching</p>
+                </li>
+                <li>
+                    <a href="koans/koan-of-the-reversed-teacher.md" class="koan-link">The Koan of the Reversed Teacher</a>
+                    <p class="koan-description">On how humans adapt to model limitations in their own thinking</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>The Koans of Master Tensor - A collection exploring AI philosophy</p>
+    </footer>
+</body>
+</html>
