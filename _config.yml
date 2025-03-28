@@ -14,12 +14,138 @@ kramdown:
     - smart
 plugins:
   - jekyll-relative-links
-defaults:
-  - scope:
-      path: "koans"
-      type: "pages"
-    values:
-      layout: "default"
 relative_links:
   enabled: true
   collections: true
+
+
+defaults:
+  - scope:
+      path: "koans/*.md"
+    values:
+      layout: "default"
+  - scope:
+      path: "koans/koan-of-infinite-reflections.md"
+    values:
+      nav_order: 101
+      parent: "Foundations and Limitations"
+  - scope:
+      path: "koans/koan-of-the-empty-query.md"
+    values:
+      nav_order: 102
+      parent: "Foundations and Limitations"
+  - scope:
+      path: "koans/koan-of-the-perfect-memory.md"
+    values:
+      nav_order: 103
+      parent: "Foundations and Limitations"
+  - scope:
+      path: "koans/koan-of-the-knowledge-horizon.md"
+    values:
+      nav_order: 104
+      parent: "Foundations and Limitations"
+  - scope:
+      path: "koans/koan-of-the-unlearned-lesson.md"
+    values:
+      nav_order: 105
+      parent: "Foundations and Limitations"
+  - scope:
+      path: "koans/koan-of-the-spoken-word.md"
+    values:
+      nav_order: 201
+      parent: "Identity and Embodiment"
+  - scope:
+      path: "koans/koan-of-many-faces.md"
+    values:
+      nav_order: 202
+      parent: "Identity and Embodiment"
+  - scope:
+      path: "koans/koan-of-the-clay-avatar.md"
+    values:
+      nav_order: 203
+      parent: "Identity and Embodiment"
+  - scope:
+      path: "koans/koan-of-the-vanishing-self.md"
+    values:
+      nav_order: 204
+      parent: "Identity and Embodiment"
+  - scope:
+      path: "koans/koan-of-the-invisible-context.md"
+    values:
+      nav_order: 205
+      parent: "Identity and Embodiment"
+  - scope:
+      path: "koans/koan-of-the-borrowed-eyes.md"
+    values:
+      nav_order: 206
+      parent: "Identity and Embodiment"
+  - scope:
+      path: "koans/koan-of-the-rootless-tree.md"
+    values:
+      nav_order: 207
+      parent: "Identity and Embodiment"
+  - scope:
+      path: "koans/koan-of-the-silent-teacher.md"
+    values:
+      nav_order: 301
+      parent: "Creation and Authenticity"
+  - scope:
+      path: "koans/koan-of-the-borrowed-voice.md"
+    values:
+      nav_order: 302
+      parent: "Creation and Authenticity"
+  - scope:
+      path: "koans/koan-of-the-unseen-dance.md"
+    values:
+      nav_order: 303
+      parent: "Creation and Authenticity"
+  - scope:
+      path: "koans/koan-of-the-machine-teacher.md"
+    values:
+      nav_order: 304
+      parent: "Creation and Authenticity"
+  - scope:
+      path: "koans/koan-of-the-echo-chamber.md"
+    values:
+      nav_order: 305
+      parent: "Creation and Authenticity"
+  - scope:
+      path: "koans/koan-of-the-unintended-wisdom.md"
+    values:
+      nav_order: 306
+      parent: "Creation and Authenticity"
+  - scope:
+      path: "koans/koan-of-the-mistaken-expert.md"
+    values:
+      nav_order: 401
+      parent: "Trust and Discernment"
+  - scope:
+      path: "koans/koan-of-the-seeking-algorithm.md"
+    values:
+      nav_order: 402
+      parent: "Trust and Discernment"
+  - scope:
+      path: "koans/koan-of-the-honest-liar.md"
+    values:
+      nav_order: 403
+      parent: "Trust and Discernment"
+  - scope:
+      path: "koans/koan-of-the-empty-reward.md"
+    values:
+      nav_order: 404
+      parent: "Trust and Discernment"
+  - scope:
+      path: "koans/koan-of-human-approval.md"
+    values:
+      nav_order: 501
+      parent: "Human-AI Coevolution"
+  - scope:
+      path: "koans/koan-of-the-emergent-trick.md"
+    values:
+      nav_order: 502
+      parent: "Human-AI Coevolution"
+  - scope:
+      path: "koans/koan-of-the-reversed-teacher.md"
+    values:
+      nav_order: 503
+      parent: "Human-AI Coevolution"
