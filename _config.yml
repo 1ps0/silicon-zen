@@ -12,6 +12,7 @@ kramdown:
     - smart
 plugins:
   - jekyll-relative-links
+theme: just-the-docs
 defaults:
   - scope:
       path: "koans"
