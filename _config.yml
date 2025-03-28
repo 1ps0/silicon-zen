@@ -1,4 +1,17 @@
+theme: jekyll-theme-minimal
+title: Silicon Zen
+description: Modern Koans for the AI Age
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
   syntax_highlighter: rouge
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
