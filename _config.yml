@@ -1,4 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+enable_darkmode_toggle: true
 title: Silicon Zen
 description: Modern Koans for the AI Age
 markdown: kramdown
